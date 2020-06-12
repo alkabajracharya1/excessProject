@@ -1,0 +1,154 @@
+body{
+	/*background-color: red;*/
+}
+.headerSection{
+	background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), url(../assets/bsnner33.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	/*background-attachment: fixed;*/
+	padding-bottom: 4rem;
+}
+.top{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 30px;
+}
+.logo img{ 
+	width: 260px;
+}
+.contactBtn{
+	border: none;
+	background-color: #6E8E97;
+	border-radius: 30px;
+	color: #fff;
+	padding: 5px 20px;
+}
+.navbar-nav a{
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 0px 70px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding: 0px 40px;
+}
+.bannerContent .container{
+	width: 50%;
+	margin: 8rem;
+}
+.bannerHeading{
+	font-size: 56px;
+	font-weight: 550;
+	color: #CC782A;
+}
+.bannerPara{
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 0px;
+}
+.shopBtn{
+	border: none;
+	width: 14rem;
+	background: #54CAE3;
+	color: #fff;
+	padding: 10px 30px;
+	border-radius: 12px;
+}
+.fbIcon{
+	font-size: 26px; 
+	padding: 0px 20px; 
+	text-decoration: none;
+	color: #000;
+}
+/* category sections starts */
+.heading{
+	text-align: center;
+}
+#categorySection .categorylist img{
+	width: 90%;
+	height: 140px;
+	position: relative;
+}
+.categoryname{
+	border: none;
+	background: #ccc;
+	color: #000;
+	font-weight: 600;
+	border-radius: 8px;
+	position: absolute;
+	top: 90%;
+	right: 28%;
+	padding: 6px 20px;
+	width: 10rem;
+	/* margin: auto; */
+}
+/* category sections ends */
+.productSection{
+	margin-top: 30px;
+}
+.productSection .item img{
+	width: 120px;
+	height: 160px;
+	padding:  0px 20px;
+	/* border-radius: 50%; */
+}
+ 
+
+
+
+
+
+
+/* footer section starts */
+.footerSection{
+	padding: 60px 0px;
+	background: #6E8E97;
+	margin-top: 20px;
+	color: #fff;
+}
+.middleFooter{
+	padding-left: 8rem;
+}
+.middleFooter a{
+	list-style: none;
+	text-decoration: none;
+}
+.middleFooter a li{
+	padding-top: 10px;
+	color: #fff;
+}
+.rightContent li{
+	list-style: none;
+	padding-top: 10px;
+}
+.rightContent{
+	padding-left: 4rem ;
+}
+/* footer section ends  */
+/* bottom section starts */
+.bottomSection{
+	margin-top: 50px;
+}
+.copyright{
+	float: left;
+}
+.socialMedia{
+	float: right;
+	
+}
+.socialMedia a{
+	padding: 0px 10px;
+	color: #fff;
+	font-size: 24px;
+}
+.info{
+	text-align: center;
+}
+.price{
+	text-align: center;
+	color: #CC782A;
+}
+/* bottom section ends */
